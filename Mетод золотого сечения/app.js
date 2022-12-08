@@ -34,6 +34,8 @@ while (En > E) {
   console.log(line.repeat(55));
 }
 let xMin = (a + b) / 2;
+let FxMin = xMin ** 4 + exponent ** -xMin;
+console.log("FxMin = ", Math.floor(FxMin * 10000) / 10000);
 console.log("xMin = ", Math.floor(xMin * 10000) / 10000);
 console.log("a = ", Math.floor(a * 10000) / 10000);
 console.log("b = ", Math.floor(b * 10000) / 10000);
